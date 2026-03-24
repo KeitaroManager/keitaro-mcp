@@ -1,0 +1,33 @@
+[project]
+name = "keitaro-mcp"
+version = "0.1.0"
+description = "MCP server for Keitaro Tracker Admin API — campaign management, reports, analytics"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+readme = "README.md"
+keywords = ["mcp", "keitaro", "tracker", "affiliate", "analytics"]
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Libraries",
+]
+dependencies = [
+    "mcp>=1.0.0",
+]
+
+[project.scripts]
+keitaro-mcp = "keitaro_mcp:main"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+Repository = "https://github.com/KeitaroManager/keitaro-mcp"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

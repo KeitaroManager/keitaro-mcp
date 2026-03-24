@@ -1,0 +1,16 @@
+[
+  {
+    "name": "production",
+    "url": "https://tracker.example.com",
+    "api_key": "your-production-api-key",
+    "description": "Production tracker",
+    "timeout": 30
+  },
+  {
+    "name": "staging",
+    "url": "https://staging-tracker.example.com",
+    "api_key": "your-staging-api-key",
+    "description": "Staging tracker",
+    "timeout": 30
+  }
+]

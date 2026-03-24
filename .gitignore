@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Local config (contains API keys)
+.env
+.mcp.json
+
+# Claude Code project config (personal)
+.claude/
+CLAUDE.md
